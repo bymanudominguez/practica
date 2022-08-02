@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Esto no se ve en la pagina web-->
+    <title>Align Attribute Example</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1><b>Resumen HTML</b></h1>
+    <h2><strong> Más importancia semantica que b</strong></h2>
+    <p align="left">Esto está alineado a la izquierda</p>
+    <p align="center"><em>Esto está centrado</em></p>
+    <p align="right">
+      <i>Esto está alineado a la derecha con letra italica</i>
+    </p>
+    <p>Salto de linea<br />Jaja estoy abajo!</p>
+    <p><li>Sirvo para declarar elementos de una lista</li></p>
+    <ol type="a" start="1" reversed>
+      <li>Listas o viñétas ordenadas con numeracion o alfabetizacion</li>
+    </ol>
+    <ul type="square">
+      <li>Lista desordenada</li>
+    </ul>
+    <div>Soy un contenedor de otros elementos HTML</div>
+    <img src="imagen.png" alt="Mi descripción de imagen" />
+    <a href="https://google.com"> </a>
+    <p><strike>Texto tachado</strike></p>
+    <tt>Fuente monoespaciada</tt>
+    <p class="Importante">Hello World!</p>
+    <p><strong>Esto es Anidamiento y sirve para remarcar</strong></p>
+
+    <iframe
+      width="10%"
+      height="100"
+      src="https://www.google.com"
+      frameborder="0"
+    ></iframe>
+    <!--Grillas-->
+    <div class="container">
+      <div class="row">
+        <div class="col">Contenido</div>
+        <div calss="col">Contenido 2</div>
+        <div calss="col-5">Contenido 3</div>
+      </div>
+      <div class="row">
+        <div class="col">Contenido(?</div>
+      </div>
+    </div>
+    <figure class="figure">
+      <img src="..." class="figure-img img-fluid rounded" alt="..." />
+
+      <figcaption class="figure-caption">Figura 1.2</figcaption>
+    </figure>
+    <form>
+      <div class="mb-3">
+        <label for="idE" class="form-label">Correo</label>
+
+        <input
+          type="email"
+          class="form-control"
+          id="idE"
+          aria-describedby="idEH"
+        />
+
+        <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+
+        <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <div class="alert alert-primary" role="alert">
+      A simple primary alert—check it out!
+    </div>
+
+    <div class="alert alert-secondary" role="alert">
+      A simple secondary alert—check it out!
+    </div>
+
+    <div class="alert alert-success" role="alert">
+      A simple success alert—check it out!
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+      A simple danger alert—check it out!
+    </div>
+
+    <div class="alert alert-warning" role="alert">
+      A simple warning alert—check it out!
+    </div>
+
+    <div class="alert alert-info" role="alert">
+      A simple info alert—check it out!
+    </div>
+
+    <div class="alert alert-light" role="alert">
+      A simple light alert—check it out!
+    </div>
+
+    <div class="alert alert-dark" role="alert">
+      A simple dark alert—check it out!
+    </div>
+    <button type="button" class="btn btn-primary">Primary</button>
+
+    <button type="button" class="btn btn-secondary">Secondary</button>
+
+    <button type="button" class="btn btn-success">Success</button>
+
+    <button type="button" class="btn btn-danger">Danger</button>
+
+    <button type="button" class="btn btn-warning">Warning</button>
+
+    <button type="button" class="btn btn-info">Info</button>
+
+    <button type="button" class="btn btn-light">Light</button>
+
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
