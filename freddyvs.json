@@ -1,0 +1,21 @@
+[ "nombre": "Manuel",
+"apellido": "Dominguez",
+"edad": 24,
+"lindo": true,
+"medidas": {
+    "talla pantalon": 40,
+    "talla calzado": 42,
+    "talla remera": "L"
+}
+"historial empleo": [
+    {"puesto": "ninguno"
+    "periodo de trabajo": "no hubo" 
+    "sueldo" : 0
+
+    }
+    { "puesto": "no"
+    "periodo de trabajo": "never" 
+    "sueldo" : -1
+    }
+]
+]
